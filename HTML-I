@@ -1,0 +1,42 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<!--Yorum Satırı-->
+<!-- Head etiketi içerisindeki kodlamalar tarayıcıda görüntülenmez..-->
+<title>Anıl Kuş</title>
+<link rel="icon" type="image/x-icon" href="images/unilogo.png">
+
+</head>
+<body>
+<!-- Tarayıcının kullanıcıya gösterdiği her öğe burada kodlanır.-->
+<h1>Toros Üniversitesi</h1>
+<h2>Bilgisayar Programcılığı</h2>
+<h3>Mersin</h3>
+
+<p>Burayada yazılmak istenen metinler <br> yazılır.</p>
+<p>Buda ikinci paragrafımız...</p>
+
+<a href="" target="_blank" >Buraya Tıklayınca Toros'a Gider </a><br>
+<a href="mailto:info@toros.edu.tr">Bize e-mail göndermek için buraya tıklayın </a>
+
+<img src="images/unilogo.png"></img>
+
+<b>Anıl</b>
+
+<p style="color:#0d78ac">Burası yazı<b>yeri </b> </p>
+<p>Burası Mersinde yer alan <i>bir</i> üniversitedir.</p>
+<p>Üniversite <small>1.sınıfa</small> gidiyorum.</p>
+<p>Türkiye'de <em>7 tane farklı bölge vardır.</p>
+<p>İspanya'nın <del>başkenti Madrid'tir.</p>
+<p>HTML dili kolay ve <ins>eğlenceli bir dildir.</p>
+
+
+
+
+
+
+
+</body>
+
+
+</html>
