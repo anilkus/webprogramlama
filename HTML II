@@ -1,0 +1,113 @@
+<!doctype html>
+<html>
+
+<head>
+<title>Web Sitesi</title>
+<link rel="icon" type="image/x-icon" href="images/unilogo.png">
+<meta charset="UTF-8">
+</head>
+
+<body>
+<p id="anil">adsajdaskjdkdhada</p>
+
+<p title="ahmet">askdljaslkdjaskldjaslkda</p>
+
+<p style="color:red; font-size:40px;">Yazımı buraya yazıyorum.</p>
+
+<font style="color:SaddleBrown">Font ile yazılmış yazı</font><br>
+
+<font color="FireBrick">Burasıda ikinci font</font><br>
+
+<font style="color:rgb(230,20,55)">Renkli yazı yazmak</font><br>
+
+<font style="color:#A52A2A" size="3">HEX kodu ile 3 size lı yazı</font>
+
+<p style="font-size:50px">50 Pixel lik bir yazı</p>
+<p style="font-size:50pt">50 puntoluk bir yazı</p>
+<p style="font-size:5em">50 em lik bir yazı</p>
+<p style="font-size:100%">Bu da yüzde vererek bir yazı</p>
+<p style="font-size:500%">Bu da %500lük bir yazıdır.</p>
+
+<font style="font-family:Verdana">Verdana ile yazılmıs metin</font>
+<font face="Impact">Impact yazı tipi</font>
+
+<h4 style="text-align:center">Burada ortada konumlanan bir başlık var</h4>
+<h4 align="right">Burada sağda olan bir başlık var.</h4>
+<h4 align="left">Burada solda hizalanan bir metin var.</h4>
+
+<p align="justify">Burada yazdığım yazı kendiliğinden sola ve sağa hizalanır
+eğer sığmayan durum olursa kelimeleri uzatır.Burada yazdığım yazı kendiliğinden sola ve sağa hizalanır
+eğer sığmayan durum olursa kelimeleri uzatır.Burada yazdığım yazı kendiliğinden sola ve sağa hizalanır
+eğer sığmayan durum olursa kelimeleri uzatır.Burada yazdığım yazı kendiliğinden sola ve sağa hizalanır
+eğer sığmayan durum olursa kelimeleri uzatır.Burada yazdığım yazı kendiliğinden sola ve sağa hizalanır
+eğer sığmayan durum olursa kelimeleri uzatır.</p>
+<p align="right">Buradaki paragraf sağa hizalanır.</p>
+
+<input type="button" value="bu tuşa tıklayınız">
+
+<img src="images/unilogo.png" alt="logo"  usemap="#logobolme"/>
+<map name="logobolme">
+<area shape="rect" coords="-1,118,224,0" href="https://toros.edu.tr/">
+<area shape="rect" coords="219,206,3,126" href="https://bahcesehir.edu.tr/">
+</map>
+
+<!--<img srcset="images/unilogo.png 1024w , images/unilogo.png 640w ,
+ images/unilogo.png 320w" alt="" />-->
+ 
+ 
+ <!--<a href="https://toros.edu.tr/" target="_blank">
+ <img src="images/unilogo.png"/> </a>-->
+ 
+ <h1>Alışveriş Listesi</h1>
+ <li>Çay</li>
+ <li>Kahve</li>
+ <li>Kola</li>
+ <!-- ul - unordered list sırasız liste bir diğeri ol ordered list sıralı liste-->
+ <h1>Şehirler</h1>
+ <ul>
+ <li>Adana</li>
+ <li>Mersin</li>
+ <li>İzmir</li>
+ <li>Afyon</li>
+ </ul>
+ 
+ <p>
+ <img src="images/1.jpg" width="100" height="100"style="float:left">
+ <font size="5">yazılar burada yer alacak yazılar burada yer alacak yazılar burada yer alacak</font>
+ 
+ </p>
+ <br><br><br>
+ <table>
+ <tr>
+ <th>İsim</th>
+ <th>Soyisim</th>
+ <th>Numara</th>
+ </tr>
+ <tr>
+ <td>Anıl</td>
+ <td>Kuş</td>
+ <td>123213</td>
+ </tr>
+ <tr>
+ <td>Ahmet</td>
+ <td>Aslan</td>
+ <td>456</td>
+ </tr>
+  
+ </table>
+ <video width="100" height="100" autoplay>
+ 
+ <source src="images/video.mp4" type="video/mp4">
+ 
+ 
+ </video>
+ <iframe width="560" height="315" src="https://www.youtube.com/embed/f8yIrzAJU9s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+ 
+ 
+ <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3194.991767426777!2d34.58939921522261!3d36.79474777994979!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1527f498cd273d5d%3A0x3df1b9dfef87b9c5!2zVG9yb3Mgw5xuaXZlcnNpdGVzaSBCYWjDp2VsaWV2bGVyIEthbXDDvHPDvA!5e0!3m2!1str!2str!4v1647349997978!5m2!1str!2str" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+ 
+
+
+</body>
+
+</html>
