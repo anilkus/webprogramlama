@@ -1,0 +1,56 @@
+<!doctype html>
+<html>
+<head>
+<title>Web Sitesi</title>
+<link rel="icon" type="image/x-icon" href="images/unilogo.png">
+<meta charset="UTF-8">
+</head>
+<body style="margin:0px ">
+<style>
+.aciklama{
+margin:10px;
+text-align:center;
+
+}
+.karakter{
+float:left;
+padding:5px;
+margin:5px;
+width:250px;
+height:280px;
+text-align:center;
+border:5px solid silver;
+}
+h1{
+margin:0px;
+background-color:red;
+color:white;
+padding:5px;
+}
+img{
+margin:0px;
+
+}
+</style>
+<h1>Burada bir başlık yazmaktadır.</h1>
+<img src="images/unilogo.png" width="10%" height="auto"></img>
+
+<div class="aciklama">
+<h2>Buradaki başlık h2 ve tasarımı aciklama classına bağlıdır.</h2>
+<p>buradaki paragrafta aynı sekilde</p>
+</div>
+
+<div class="karakter">
+<img src="images/1.jpg" height="130px" width="130px"/>
+<h3>h3 baslıgı ve tasarımı karakter class ına bağlı.</h3>
+<p>bir diğer paragraf aynı sekilde</p> 
+</div>
+
+<p contenteditable="true">Buraya tıklayınca yazıya müdahele edilir.</p>
+
+
+
+</div>
+
+</body>
+</html>
