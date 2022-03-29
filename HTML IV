@@ -1,0 +1,25 @@
+<!doctype html>
+<html>
+<head>
+<title>Web Sitesi</title>
+<link rel="icon" type="image/x-icon" href="images/unilogo.png">
+<meta charset="UTF-8">
+</head>
+<body>
+<a href="a.pdf" target="_self">Dosya İndir</a>
+
+<div style="background-color:yellow">Bu kutunun rengi sarıdır.</div>
+
+<div style="padding:50px; border:2px solid black;">Bu kutunun etrafında
+siyah bir çerçeve vardır ve kutu içerisindeki yazı sağ sol üst taraftan 
+50px ötelemelidir.</div>
+
+<div style="margin:50px; border:2px solid black;"> Bu kutu tarayıcıda sağ sol
+üst 50px ötelemelidir</div>
+
+<div style="width:150px; height:auto; border:3px solid red;">kutunun genişliği
+150px ve yüksekliğide içeriğe göre otomatik olarak uzatılmaktadır.</div>
+
+
+</body>
+</html>
