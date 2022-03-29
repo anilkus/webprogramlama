@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Formlar</title>
+<link rel="icon" type="image/x-icon" href="images/unilogo.png">
+<meta charset="UTF-8">
+</head>
+<body>
+<!--<input readonly value=".."></input><br><br>
+<input required value="İsim Soyisim"></input> <i>*Doldurulması Zorunlu</i>
+<br><br>
+<input value="Pasif, yazılamayan kutu" disabled></input><br><br>
+<textarea autofocus>Sayfa yüklendiğinde bu kutu etrafında mavi çizgi çizilir. 
+Yani seçili hale getirilmiş olur.</textarea><br>
+<textarea maxlength="40">Buraya en fazla 40 karakter sığar</textarea><br>
+<textarea placeholder="Mesajınızı giriniz.."></textarea><br>
+-->
+
+<form action="" method="">
+<input id="isim" type="text" required placeholder="İsminiz..."></input>
+<br><br>
+<input id="soyisim" type="text" placeholder="Soyisminiz.."></input>
+<br><br>
+<textarea id="mesaj" type="text" maxlength="10" placeholder="Mesajınızı buraya yazınız."></textarea>
+<br><br>
+<button type="reset" value="reset">TEMİZLE</button>
+<button id="gonder" type="submit" value="submit">GÖNDER</button>
+
+<input type="button" value="gonder"/>
+<input type="submit" value="yolla"/>
+
+<fieldset style="width:280px">
+<legend> Şifreyi giriniz</legend>
+<b> Şifre</b><input type="text"></input>
+<button>Onayla</button></fieldset>
+
+<br><br>
+<select>
+<option value="genc">GALATASARAY</option>
+<option value="ortayas" selected>BEŞİKTAŞ</option>
+<option value="ihtiyar">BAŞAKŞEHİR</option>
+<option value="yasli">FENERBAHÇE</option>
+</select>
+<br>
+
+
+<meter min="0" max="100" value="70"></meter>
+<br>
+<meter value="1"></meter>
+
+<progress value="90" max="100"></progress>
+<br><br>
+
+
+<label>Cinsiyet</label><br><br>
+<input type="radio" name="cinsiyet" value="erkek">Erkek<br>
+<input type="radio" name="cinsiyet" value="kadin" checked>Kadın<br>
+<input type="radio" name="cinsiyet" value="other">Diğer<br>
+<br>
+<label>Medeni Durum:</label><br><br>
+<input type="radio" name="medenihal" value="bekar">Bekar<br>
+<input type="radio" name="medenihal" value="evli" checked>Evli<br>
+<input type="radio" name="medenihal" value="dul">Dul<br>
+
+<br><br>
+
+<label>Hobileriniz:</label><br><br>
+<input type="checkbox" name="hobi" value="yuzme" checked>Yüzme<br>
+<input type="checkbox" name="hobi" value="kosma">Koşma<br>
+<input type="checkbox" name="hobi" value="atbinme">At Binme<br>
+<input type="checkbox" name="hobi" value="uyuma">Uyuma<br>
+<br><br>
+
+
+
+<input type="url"></input>
+
+<input type="url" name="adres" pattern="https?://.+"></input>
+<input type="submit"/>
+<br><br><br><br><br><br><br><br><br>
+<input type="password" name="sifre"></input>
+<input type="submit"/>
+<br>
+<input type="number"></input>
+<input type="range" min="1" max="10" value="4"></input>
+<br><br><br>
+
+
+
+
+<input type="search" name="aranacak-kelime">
+<input type="submit">
+<br>
+<input type="email"></input>
+<input type="submit">
+<br>
+<input type="date"></input>
+
+
+</form>
+
+</body>
+</html>
