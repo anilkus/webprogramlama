@@ -1,0 +1,21 @@
+
+/* yorum satırı */ 
+.anil{
+	color:blue;
+	font-size:20px;
+}
+.ahmet{
+	color:red;
+	text-align:right;
+}
+#toros{
+	color:green;
+	border:4px solid black;
+}
+
+img{
+	
+}
+p{}
+
+	
