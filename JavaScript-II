@@ -1,0 +1,84 @@
+<!doctype html>
+<html>
+<head>
+<script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+<title>Web Sitesi</title>
+<script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+<link rel="icon" type="image/x-icon" href="images/unilogo.png">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/menu.css">
+<link rel="stylesheet" href="css/icerik.css">
+<link rel="stylesheet" href="css/link.css">
+<link rel="stylesheet" href="css/comstyle.css">
+<link rel="stylesheet" href="css/animasyon.css">
+<meta charset="UTF-8">
+
+<meta name="keywords" content="ayakkabi, marka, mersin, turkiye">
+<meta name="description" content="E-ticaret">
+<meta name="author" content="Toros Yazılım">
+
+<meta http-equiv="refresh" content="30">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+</head>
+<body>
+<script>
+function tabloCiz(){
+var tabloIcerigi = "<table>";
+for (var i=1; i<=10; i++){
+tabloIcerigi +="<tr>";
+ for (var j=1; j<=10; j++){
+ tabloIcerigi +="<td width='25px' height='25px'>"+i*j+"</td>"; 
+ }
+ tabloIcerigi +="</tr>";
+}
+tabloIcerigi +="</table>";
+document.write(tabloIcerigi);
+}
+document.onReady=tabloCiz();
+</script>
+<script>
+/*
+var telefon={Marka:"Samsung",Model:"Galaxy",Fiyat:"5000 TL"}
+for (var bilgiler in telefon){
+document.write(bilgiler+"="+telefon[bilgiler]+"<br>");
+}
+*/
+
+</script>
+
+<script>
+/*
+var isimler=["Ahmet","Ela"];
+for(isim in isimler){
+document.write("<p>"+isimler[isim]+"</p>");
+
+}
+*/
+
+</script>
+
+<script>
+for(i=0;i<10;i++){
+if(i==5){
+break;
+}
+document.write(i);
+}
+
+</script>	
+<script>
+for(i=0;i<10;i++){
+if(i==5){
+continue;
+}
+document.write(i);
+}
+
+</script>	
+
+
+
+</body>
+</html>
