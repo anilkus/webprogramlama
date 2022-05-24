@@ -1,0 +1,79 @@
+<!doctype html>
+<html>
+<head>
+<script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+<title>Web Sitesi</title>
+<script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+<link rel="icon" type="image/x-icon" href="images/unilogo.png">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/menu.css">
+<link rel="stylesheet" href="css/icerik.css">
+<link rel="stylesheet" href="css/link.css">
+<link rel="stylesheet" href="css/comstyle.css">
+<link rel="stylesheet" href="css/animasyon.css">
+<meta charset="UTF-8">
+
+<meta name="keywords" content="ayakkabi, marka, mersin, turkiye">
+<meta name="description" content="E-ticaret">
+<meta name="author" content="Toros Yazılım">
+
+<meta http-equiv="refresh" content="30">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script>
+
+function saat(){
+var zaman = new Date();
+document.write(zaman.getDate());
+document.write(".");
+document.write(zaman.getMonth()+1);
+document.write(".");
+document.write(zaman.getFullYear());
+document.write("<br>");
+}
+saat();
+//ikinci fonksiyonda saat dakika ve saniye yazılsın
+function saat2(){
+var zaman=new Date();
+document.write(zaman.getHours());
+document.write(":");
+document.write(zaman.getMinutes());
+document.write(":");
+document.write(zaman.getSeconds());
+document.write("<br>");
+}
+saat2();
+</script>
+</head>
+<body>
+
+<!--fonksiyonlar-->
+<script>
+
+function toplama(a,b){
+var toplam=a+b;
+document.write(a+"ile"+b+"sayilarin toplami"+toplam+"eder");
+return toplam;
+}
+document.getElementById("sonuc").innerHTML=toplama(5,20);
+</script>
+<p id="sonuc"></p>
+<script>
+	var rastgeleSayi = Math.random();	<script>
+document.write()
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
